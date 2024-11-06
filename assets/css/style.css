@@ -36,6 +36,9 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+  img{
+    max-width: 100%;
+  }
 a:focus,
 input:focus,
 textarea:focus,
@@ -507,6 +510,7 @@ p {
       transform: rotate(135deg);
       top: -7px; }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
+      
       .navbar-area .navbar .navbar-collapse {
         position: absolute;
         top: 116%;
@@ -1635,9 +1639,7 @@ a.content-link {
   opacity: 0;
 }
 
-.logo{
-  height: 75px;
-}
+
 
 nav{
   display: flex;
@@ -1653,4 +1655,8 @@ ul{
 
 .main-title{
   color: white;
+}
+
+.logo{
+  height: 200px;
 }
